@@ -1,0 +1,25 @@
+main{
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+.white{
+    width: 800px;
+    margin: 0;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+.p1black{ 
+    color: white;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
