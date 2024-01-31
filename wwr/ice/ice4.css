@@ -1,25 +1,38 @@
-main{
-    text-align: center;
-}
-body{
+.section:hover {
     background-color: pink;
 }
-.white{
-    width: 800px;
-    margin: 0;
+
+.white {
     color: white;
 }
-h1{
-    text-align: center;
-    color: white;
-}
-h1:hover {
+
+.black {
     color: black;
 }
-.p1black{ 
+
+main {
+    padding-top: 1%;
+    padding-right: 37%;
+    padding-bottom: 1%;
+    padding-left: 37%;
+}
+
+body {
+    background-color: pink;
+}
+
+.white:hover {
+    color: black;
+}
+
+.black:hover {
     color: white;
+}
+
+h1, h2, .p1black, p {
     text-align: center;
 }
-li{
-    list-style-type: none;
+.president_nelson{
+    text-align: center;
 }
+
