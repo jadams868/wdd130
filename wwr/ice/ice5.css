@@ -1,15 +1,22 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
     margin: 0;
 }
-header{
-    margin: 0;
-}
-main{ 
+main {
     background-color: grey;
-    text-align: cente5r;
-    
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.roundedimage{
+.desk, .graphic, .thomas {
     border-radius: 50%;
+    border: 30px solid rgb(72, 72, 72);
+    width: 300px;
+    margin: 40px;
 }
-.desk
