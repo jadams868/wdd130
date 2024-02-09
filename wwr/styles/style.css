@@ -29,6 +29,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+.mountains {
+    margin: 100px;
+}
 .icon {
     width: 80px;
     padding-top: 10px;
