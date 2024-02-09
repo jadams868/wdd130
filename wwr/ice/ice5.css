@@ -1,0 +1,26 @@
+header {
+    margin: 0;
+}
+.thomas2{
+    width: 100%;
+}
+main {
+    background-color: grey;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+}
+.desk, .graphic, .thomas {
+    border-radius: 50%;
+    border: 1.5vw solid rgb(72, 72, 72);
+    width: 15%;
+    margin: 3%;
+}
