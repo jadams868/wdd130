@@ -22,19 +22,23 @@
   --nav-hover-link-color: #00509D;
   --nav-hover-background-color: #FF6B35;
 }
-
+#logo_link {
+    padding-top: 5px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: #00296B;
-    /* color: var(--primary-color); */
+    /* NOTE: I can also use this to control all -> color: var(--primary-color); */
     text-decoration: none;
+    padding: 35px;
 }
 #hero-img {
     width: 100%;
@@ -48,13 +52,23 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #fa7f52;
 }
 
 body {
-    background-color: #F7C59F; 
+    background-color: #F7C59F;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:#fa7f52;
@@ -67,6 +81,8 @@ nav a:hover {
 .home-title {
     color: #00296B;
     font-family: "Bebas Neue",'Heebo', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #00509D;
@@ -75,6 +91,16 @@ h4 {
     background-color: #FF6B35;
     color: #00296B;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #FF6B35;
 }
 .book:hover, .join:hover {
     background-color: #00509D;
@@ -83,10 +109,17 @@ h4 {
 }
 .msg {
     background-color: #0264be;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #00296B;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a {
     color: #fa7f52;
@@ -103,4 +136,6 @@ footer a:hover {
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
