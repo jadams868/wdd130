@@ -110,10 +110,11 @@ nav a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 .home-title {
-    color: #00296B;
+    color: White;
     font-family: "Bebas Neue",'Heebo', Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    -webkit-text-stroke: #00296B .01px;
 }
 h4 {
     color: #00509D;
