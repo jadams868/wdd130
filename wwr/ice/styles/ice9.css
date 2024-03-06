@@ -8,12 +8,17 @@ body {
     background-color: white;
 
 }
+
 .headerimage {
     width: 100%;
 }
 
 .awesomeart p1 {
     color: blue;
+}
+
+.awesomeart h1 {
+    margin: 1% 0 0 0;
 }
 
 .awesomeart {
@@ -49,3 +54,6 @@ body {
 /* .gridcontainer > * {
     border: 2px solid white;
 } */
+
+/* border-bottom: none;
+border-top: none' */
